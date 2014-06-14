@@ -1,6 +1,6 @@
 #############################################################################
 
-## Course Project: Getting and Cleaning Data(coursera.org)
+## Course Project: Getting and Cleaning Data (www.coursera.org)
 ## Andre Obereigner
 ## 14 June 2014
 
@@ -96,7 +96,7 @@ columnNames <- gsub("-std\\(\\)", "StdDev", columnNames)
 columnNames <- gsub("^t", "time", columnNames)
 columnNames <- gsub("^f", "freq", columnNames)
 columnNames <- gsub("Mag", "Magnitude", columnNames)
-columnNames <- gsub("Acc", "Accelation", columnNames)
+columnNames <- gsub("Acc", "Acceleration", columnNames)
 columnNames <- gsub("Gyro", "Gyroscope", columnNames)
 columnNames <- gsub("BodyBody", "Body", columnNames)
 
@@ -126,4 +126,4 @@ datasetTidy       <- merge(datasetTidy, activityLabels, by="activityID")
 datasetTidy       <- datasetTidy[order(datasetTidy$subjectID, datasetTidy$activityID) , ]
 
 # Write the tidy dataset to a file
-write.table(datasetTidy, "../tidyDataset.csv", row.names=FALSE, sep="\t")
+write.table(datasetTidy, "../tidyDataset.csv", row.names=FALSE, sep=",")
