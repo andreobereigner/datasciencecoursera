@@ -20,7 +20,7 @@
 #############################################################################
 
 # Set the path to the unzipped dataset
-setwd("C:/Users/Andre Obereigner/Documents/_DATA/Career/_C_DataScienceCertification/03_GettingAndCleaningData/CourseProject01/dataset")
+setwd("C:/Users/_C_DataScienceCertification/03_GettingAndCleaningData/CourseProject01/dataset")
 
 ############################
 ### 1) Merge the training and the test sets to create one data set.
