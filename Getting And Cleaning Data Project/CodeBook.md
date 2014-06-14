@@ -47,5 +47,5 @@ In the last step, the mean of each variable for each activity and each subject i
 
 ## Tidy Dataset
 
-The final tidy dataset will write "tidyDataset.csv". The CSV file will be separated by "," (comma) and will not contain any row names. The dimension of the final tidy dataset is [180, 69], equal to 180 rows and 69 columns.
+The final tidy dataset will be called "tidyDataset.csv". The CSV file will be separated by "," (comma) and will not contain any row names. The dimension of the final tidy dataset is [180, 69], equal to 180 rows and 69 columns.
 
